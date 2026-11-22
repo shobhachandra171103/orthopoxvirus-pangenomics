@@ -38,7 +38,7 @@ This repository documents the comparative pangenome and evolutionary analysis ac
 
 ![Gene families frequency distribution (U shape)](results/ppanggolin_u_shape_distribution.png)
 
-![Pangenome Presence-Absence Partition Heatmap](results/Pangenome_Partition_Plot.png)
+![Pangenome Presence-Absence Partition Heatmap](results/Presence_absence.png)
 
 ## Repository Structure
 

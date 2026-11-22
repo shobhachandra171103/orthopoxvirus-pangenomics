@@ -31,11 +31,14 @@ This repository documents the comparative pangenome and evolutionary analysis ac
 | **Total genes** | `0% <= strains <= 100%` | **569** |
 
 * **Conserved Core vs. Expansive Cloud:** Across **569** total Panaroo gene clusters, **148** belong to the strict core (`>= 99%` of strains) and **25** to the soft core (`95%` to `< 99%`), whereas **39** fall into the shell (`15%` to `< 95%`) and **357** constitute the cloud genome (`< 15%`), reflecting extensive accessory gene turnover across *Orthopoxvirus* lineages.
+* **Presence–Absence / Shell Partition Pattern:** The accessory presence–absence heatmap (`Pangenome_Partition_Plot.png`) visualizes variable gene presence across genomes, highlighting differential retention of accessory loci across lineages.
 * **PPanGGOLiN Gene Family Frequency Distribution:** Across **497** gene families (Chao1 richness estimate: **815.95**), the frequency distribution follows a characteristic U-shaped pangenome curve—dominated by **Cloud** families at low genome frequencies and **Persistent** families at high genome frequencies, with **Shell** families occupying intermediate occurrence bins.
 
 ### Visual Summary
 
 ![Gene families frequency distribution (U shape)](results/ppanggolin_u_shape_distribution.png)
+
+![Pangenome Presence-Absence Partition Heatmap](results/Pangenome_Partition_Plot.png)
 
 ## Repository Structure
 
@@ -49,4 +52,5 @@ orthopoxvirus-pangenomics/
 │   └── plot_multicopy.py
 └── results/
     ├── summary_statistics.txt
-    └── ppanggolin_u_shape_distribution.png
+    ├── ppanggolin_u_shape_distribution.png
+    └── Pangenome_Partition_Plot.png
